@@ -1,0 +1,18 @@
+{
+  "name": "cafeteria-preorder",
+  "version": "1.4.0",
+  "description": "CSPC Cafeteria Pre-Order System (Capstone Project)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/smoke.js",
+    "images": "node scripts/fetch-food-images.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.24.6"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
